@@ -1,0 +1,84 @@
+.Carousel {
+  background: #000;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.Carousel > .slayder2 {
+  overflow: hidden !important;
+  width: 100%;
+}
+.Carousel > .slayder2 {
+  height: 750px;
+  overflow: hidden !important;
+}
+.Carousel > .slayder2 > .mySwiper{
+  height: 100%; 
+  width: 100%;  
+  padding-top: 0px;
+}
+.Carousel > .slayder2 > .mySwiper > .swiper-button-next::before {
+  display: none !important;
+}
+.Carousel > .slayder2 > .mySwiper > .swiper-button-prev::before {
+  display: none !important;
+}
+.Carousel > .slayder2 > .swiper {
+  margin-bottom: 0px;
+  height: 100%;
+}
+.Carousel > .slayder2  .mySwiper  .swiper-slide  img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+@media (max-width: 1530px){ 
+  .Carousel > .slayder2 {
+    height: 750px;
+  }
+}
+
+@media (max-width: 1441px){ 
+  .Carousel {
+    padding-bottom: 0px;
+  }
+  .Carousel > .slayder2 {
+    height: 700px;
+  }
+}
+
+@media (max-width: 993px){
+  .Carousel > .slayder2 {
+    height: 600px;
+  }
+ }
+
+ @media (max-width: 769px){
+  .Carousel > .slayder2 {
+    height: 500px;
+  }
+ }
+
+ @media (max-width: 413px){
+  .Carousel > .slayder2 {
+    height: 350px;
+  }
+ }
+
+ @media (max-width: 391px){
+  .Carousel > .slayder2 {
+    height: 350px;
+  }
+ }
+
+ @media (max-width: 376px){ 
+  .Carousel > .slayder2 {
+    height: 300px;
+  }
+}
+
+@media (max-width: 281px){ 
+  .Carousel > .slayder2 {
+    height: 200px;
+  }
+}

@@ -1,0 +1,41 @@
+.help {
+  margin-top: 50px;
+  margin-bottom: 166px;
+}
+.help h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 64px;
+  color: #13976e;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.documentlar{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 20px;
+}
+.documentlar li p{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .help > .container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .help h2 {
+    font-size: 44px;
+    line-height: 44px;
+    margin-bottom: 50px;
+  }
+  .documentlar{
+    gap: 20px;
+    font-size: 1.5rem;
+  }
+}

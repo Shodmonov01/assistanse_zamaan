@@ -1,0 +1,36 @@
+.slayder {
+  overflow: hidden !important;
+  width: 100%;
+}
+.slayder > .container{
+  height: 600px;
+  overflow: hidden !important;
+}
+.slayder > .container > .mySwiper{
+  height: 100%; 
+  width: 100%;  
+}
+.slayder > .container > .mySwiper > .swiper-button-next::before {
+  display: none !important;
+}
+.slayder > .container > .mySwiper > .swiper-button-prev::before {
+  display: none !important;
+}
+.slayder > .swiper {
+  margin-bottom: 0px;
+  height: 100%;
+}
+.slayder .mySwiper .swiper-slide img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+@media (max-width: 1530px) {
+
+}
+
+@media (max-width: 1441px){
+  .slayder {
+    display: none;
+  }
+}
